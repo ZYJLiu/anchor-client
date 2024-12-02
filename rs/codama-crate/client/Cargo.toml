@@ -1,0 +1,13 @@
+[package]
+name = "rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+borsh = "^0.10"
+solana-client = "2.1.2"
+solana-program = "2.1.2"
+solana-sdk = "2.1.2"
+tokio = { version = "1.0", features = ["full"] }
+codama-sdk = { path = "../codama-sdk" }

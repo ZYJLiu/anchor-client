@@ -1,0 +1,12 @@
+[package]
+name = "rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+borsh = "^0.10"
+solana-client = "2.1.4"
+solana-program = "2.1.4"
+solana-sdk = "2.1.4"
+tokio = { version = "1.0", features = ["full"] }
